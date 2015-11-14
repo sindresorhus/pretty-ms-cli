@@ -13,10 +13,10 @@
     "pretty-ms": "cli.js"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "xo && ava"
   },
   "files": [
     "cli.js"
@@ -42,11 +42,12 @@
     "number"
   ],
   "dependencies": {
-    "get-stdin": "^4.0.1",
-    "meow": "^3.3.0",
+    "get-stdin": "^5.0.1",
+    "meow": "^3.5.0",
     "pretty-ms": "^2.0.0"
   },
   "devDependencies": {
-    "ava": "0.0.4"
+    "ava": "*",
+    "xo": "*"
   }
 }
