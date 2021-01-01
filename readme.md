@@ -1,4 +1,4 @@
-# pretty-ms-cli [![Build Status](https://travis-ci.org/sindresorhus/pretty-ms-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/pretty-ms-cli)
+# pretty-ms-cli
 
 > Convert milliseconds to a human readable string: `1337000000` → `15d 11h 23m 20s`
 
